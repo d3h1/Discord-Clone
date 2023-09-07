@@ -2,7 +2,7 @@ import { UserButton } from "@clerk/nextjs"
 
 const Home = () => {
   return (
-    <div>
+    <div className="h-full">
       {/* We only want logged in users to access this page */}
       <UserButton 
         afterSignOutUrl="/"
