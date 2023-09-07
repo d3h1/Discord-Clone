@@ -1,8 +1,14 @@
-export default function Home() {
+import { UserButton } from "@clerk/nextjs"
+
+const Home = () => {
   return (
-    <div className=''>
+    <div>
       {/* We only want logged in users to access this page */}
-      This is a protected route
+      <UserButton 
+        afterSignOutUrl="/"
+      />
     </div>
   )
 }
+
+export default Home
