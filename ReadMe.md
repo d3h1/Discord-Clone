@@ -14,3 +14,8 @@ npm install -D prisma
 npx prisma init
 
 ##### We are using PLANET-SCALE and PRISMA
+
+>Commands for Prisma (everytime we modify schema)
+>>npx prisma generate
+<br>
+npx prisma db push
