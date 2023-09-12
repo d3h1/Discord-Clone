@@ -10,5 +10,7 @@
 <br>
 npx shadcn-ui@latest init
 <br>
+npm install -D prisma
+npx prisma init
 
-
+##### We are using PLANET-SCALE and PRISMA
