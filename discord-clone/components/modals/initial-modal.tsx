@@ -85,6 +85,8 @@ export const InitialModal = () => {
                         {...field}
                       />
                     </FormControl>
+                    <FormMessage />{" "}
+                    {/*IF pressing create without anything in server name, it will output an error message for the user */}
                   </FormItem>
                 )}
               />
